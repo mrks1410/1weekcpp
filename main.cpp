@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 int main() {
-	std::cout << "programing in C++ Language" << std::endl;
+	cout << "ONE TWO THREE" << endl << "FOUR FIVE SIX" << endl;
 	return 0;
 }
