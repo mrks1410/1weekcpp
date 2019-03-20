@@ -4,10 +4,6 @@
 using namespace std;
 
 int main() {
-	string s,t;
-	t = "The string entered is ";
-	cout << "Input : ";
-	cin >> s;
-	cout << t+s << endl;
+	cout << "C++" << endl;
 	return 0;
 }
