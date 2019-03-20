@@ -1,10 +1,13 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main() {
-	int a;
-	cin >> a;
-	cout << "a=" << a << endl;
+	string s,t;
+	t = "The string entered is ";
+	cout << "Input : ";
+	cin >> s;
+	cout << t+s << endl;
 	return 0;
 }
