@@ -1,16 +1,16 @@
 #include <iostream>
 #include <string>
 
-int main() {
-	int num1;
-	int num2;
+using namespace std;
 
-	std::cout << "１つ目の数:";
-	std::cin >> num1;
-	std::cout << "２つ目の数:";
-	std::cin >> num2;
-	std::cout << num1 << " + " << num2 << " = " << num1 + num2 << std::endl;
-	std::cout << num1 << " - " << num2 << " = " << num1 - num2 << std::endl;
+int main() {
+	string str1;
+	string str2;
+	cout << "姓を入力:";
+	cin >> str1;
+	cout << "名を入力:";
+	cin >> str2;
+	cout << "名前は「" + str1 + str2 + "」です。" << endl;
 	
 	return 0;
 }
