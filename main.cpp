@@ -4,6 +4,10 @@
 using namespace std;
 
 int main() {
-	cout << "ONE TWO THREE" << endl << "FOUR FIVE SIX" << endl;
+	int num;
+	cout << "数値を入力してください:";
+	cin >> num;
+	cout << num << "を２倍した数は、" << num * 2 << "です。" << endl;
+	
 	return 0;
 }
