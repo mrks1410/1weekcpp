@@ -1,13 +1,16 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 int main() {
-	int num;
-	cout << "数値を入力してください:";
-	cin >> num;
-	cout << num << "を２倍した数は、" << num * 2 << "です。" << endl;
+	int num1;
+	int num2;
+
+	std::cout << "１つ目の数:";
+	std::cin >> num1;
+	std::cout << "２つ目の数:";
+	std::cin >> num2;
+	std::cout << num1 << " + " << num2 << " = " << num1 + num2 << std::endl;
+	std::cout << num1 << " - " << num2 << " = " << num1 - num2 << std::endl;
 	
 	return 0;
 }
