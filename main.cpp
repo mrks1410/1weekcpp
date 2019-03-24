@@ -1,10 +1,17 @@
 #include <iostream>
-#include <string>
+#include "sample.h"
 
 using namespace std;
 
 int main() {
-	cout << "HelloWorld." << endl;
+	CSample obj;
+	int num;
+
+	cout << "整数を入力してください:";
+	cin >> num;
+
+	obj.set(num);
+	cout << obj.get() << endl;
 
 	return 0;
 }
