@@ -4,14 +4,13 @@
 using namespace std;
 
 int main() {
-	CSample obj;
-	int num;
+	CSample obj1, obj2;
 
-	cout << "整数を入力してください:";
-	cin >> num;
+	obj1.set(1);
+	obj2.set(2);
 
-	obj.set(num);
-	cout << obj.get() << endl;
+	cout << obj1.get() << endl;
+	cout << obj2.get() << endl;
 
 	return 0;
 }
