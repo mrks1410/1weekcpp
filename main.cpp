@@ -6,9 +6,7 @@ using namespace std;
 int main()
 {
 	Sample s;
-	s.a = 1;
-	// s.b = 1;
-	s.func1();
-	// s.func2();
+	s.setNum(1);
+	cout << s.getNum() << endl;
 	return 0;
 }

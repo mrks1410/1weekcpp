@@ -4,11 +4,10 @@
 class Sample
 {
 public:
-	int a;
-	void func1();
+	void setNum(int num);
+	int getNum();
 private:
-	int b;
-	void func2();
+	int m_num;
 };
 
 #endif // _SAMPLE_H_
