@@ -1,13 +1,14 @@
 #ifndef _SAMPLE_H_
 #define _SAMPLE_H_
 
-class CSample
+class Sample
 {
 public:
-	void set(int num);
-	int get();
+	int a;
+	void func1();
 private:
-	int m_num;
+	int b;
+	void func2();
 };
 
 #endif // _SAMPLE_H_

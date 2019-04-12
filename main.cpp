@@ -1,16 +1,14 @@
-#include <iostream>
 #include "sample.h"
+#include <iostream>
 
 using namespace std;
 
-int main() {
-	CSample obj1, obj2;
-
-	obj1.set(1);
-	obj2.set(2);
-
-	cout << obj1.get() << endl;
-	cout << obj2.get() << endl;
-
+int main()
+{
+	Sample s;
+	s.a = 1;
+	// s.b = 1;
+	s.func1();
+	// s.func2();
 	return 0;
 }
