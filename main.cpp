@@ -1,12 +1,15 @@
-#include "sample.h"
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-int main()
-{
-	Sample s;
-	s.setNum(1);
-	cout << s.getNum() << endl;
+int main() {
+	string s;
+	s = "This is a";
+	s.append(" pen.");
+	cout << s << endl;
+	cout << "文字列の長さ：" << s.length() << endl;
+
+	printf("char:%s\n", s.c_str());
 	return 0;
 }
