@@ -1,15 +1,12 @@
 #include <iostream>
-#include <string>
+#include "data.h"
 
-using namespace std;
-
-int main() {
-	string s;
-	s = "This is a";
-	s.append(" pen.");
-	cout << s << endl;
-	cout << "文字列の長さ：" << s.length() << endl;
-
-	printf("char:%s\n", s.c_str());
+int main()
+{
+	CData d;
+	d.init();
+	d.setNumber(100);
+	d.setComment("Programming C++");
+	cout << "number = " << d.getNumber() << " comment = " << d.getComment() << endl;
 	return 0;
 }

@@ -1,4 +1,4 @@
 #!/bin/bash
 
-g++ -c sample.cpp -o sample.o
-g++ main.cpp sample.o
+g++ -c data.cpp -o data.o
+g++ main.cpp data.o
