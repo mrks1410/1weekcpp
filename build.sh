@@ -1,4 +1,4 @@
 #!/bin/bash
 
-g++ -c data.cpp -o data.o
-g++ main.cpp data.o
+g++ -c twostrings.cpp -o twostrings.o
+g++ main.cpp twostrings.o
