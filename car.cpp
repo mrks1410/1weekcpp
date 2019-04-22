@@ -32,7 +32,7 @@ void CCar::supply(int fuel)
 {
     if (fuel > 0)
     {
-        m_fule += fuel;
+        m_fuel += fuel;
     }
     cout << "燃料" << m_fuel << endl;
 }
