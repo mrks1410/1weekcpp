@@ -1,14 +1,11 @@
-#include <iostream>
-#include "calculation.h"
-
-using namespace std;
+#include "car.h"
 
 int main()
 {
-	Calculation c;
-	c.setNumber1(8);
-	c.setNumber2(9);
-	cout << c.getNumber1() << " + " << c.getNumber2() << " = " << c.add() << endl;
-	cout << c.getNumber1() << " - " << c.getNumber2() << " = " << c.sub() << endl;
+	CCar c;
+	c.supply(10);
+	c.move();
+	c.move();
+	
 	return 0;
 }
